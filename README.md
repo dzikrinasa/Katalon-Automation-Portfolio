@@ -10,6 +10,7 @@ This repository contains **end-to-end UI and API test automation** using Katalon
 ✅ API Testing (REST & SOAP)  
 ✅ Data-Driven Testing  
 ✅ Custom Keywords for Reusability
+
 ✅ Test Execution Reports  
 
 ## 📂 Folder Structure  
