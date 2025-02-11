@@ -9,11 +9,9 @@ This repository contains **end-to-end UI and API test automation** using Katalon
 ✅ Web UI Testing (Selenium-based)  
 ✅ API Testing (REST & SOAP)  
 ✅ Data-Driven Testing  
-✅ Data-Driven Testing  
-✅ Custom Keywords for Reusability
-✅ Custom Keywords for Reusability
-✅ Custom Keywords for Reusability
-✅ Test Execution Reports  
+✅ Custom Keywords for Reusability  
+✅ Test Execution Reports
+  
 
 ## 📂 Folder Structure  
 📂 TestCases/ → Contains all automated test cases
