@@ -35,7 +35,7 @@ This repository contains **end-to-end UI and API test automation** using Katalon
 ## 🚀 How to Run the Tests  
 1️⃣ Clone this repository  
 ```bash
-git clone https://github.com/dzikrinasa/Katalon-Studio-Portfolio.git
+git clone https://github.com/dzikrinasa/Katalon-Studio-Portfolio.git```
 
 ## 🏷️ Tags & Keywords  
 `Katalon Studio` `Test Automation` `Selenium` `API Testing` `UI Testing` `Mobile Testing` `Data-Driven Testing`  
