@@ -9,8 +9,9 @@ This repository contains **end-to-end UI and API test automation** using Katalon
 ✅ Web UI Testing (Selenium-based)  
 ✅ API Testing (REST & SOAP)  
 ✅ Data-Driven Testing  
-✅ Custom Keywords for Reusability
-✅ Test Execution Reports  
+✅ Custom Keywords for Reusability  
+✅ Test Execution Reports
+  
 
 ## 📂 Folder Structure  
 📂 TestCases/ → Contains all automated test cases
@@ -29,14 +30,14 @@ This repository contains **end-to-end UI and API test automation** using Katalon
 - **Katalon Studio** (for test automation)  
 - **Selenium & Appium** (UI testing)  
 - **RestAssured/Katalon API** (API testing)  
-- **TestNG/JUnit** (for assertions)  
+- **TestNG/JUnit** (for assertions)
+
+## 🛠️ Tags & Keyword
+`Katalon Studio` `Test Automation` `Selenium` `API Testing` `UI Testing` `Mobile Testing` `Data-Driven Testing`  
+`Test Suites` `Test Cases` `Software Testing` `Continuous Integration` `CI/CD` `Automation Framework`  
 
 ## 🚀 How to Run the Tests  
 1️⃣ Clone this repository  
 ```bash
 git clone https://github.com/dzikrinasa/Katalon-Studio-Portfolio.git
-
-## 🏷️ Tags & Keywords  
-`Katalon Studio` `Test Automation` `Selenium` `API Testing` `UI Testing` `Mobile Testing` `Data-Driven Testing`  
-`Test Suites` `Test Cases` `Software Testing` `Continuous Integration` `CI/CD` `Automation Framework`  
 
