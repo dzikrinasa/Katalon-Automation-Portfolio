@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data-Driven Testing,Chrome 132.0.0.0,,,12-02-2025 17:23:34,12-02-2025 17:25:36,2m - 1.446s,PASSED
+,,,,,,,
+Test Cases/Katalon Academy/Data-Driven Testing/Fine a place,Chrome 132.0.0.0,,,12-02-2025 17:24:03,12-02-2025 17:24:36,32.935s,PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,12-02-2025 17:24:03,12-02-2025 17:24:07,4.561s,PASSED
+"setViewPortSize(1920, 1080)",Chrome 132.0.0.0,,,12-02-2025 17:24:07,12-02-2025 17:24:09,1.716s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 132.0.0.0,,,12-02-2025 17:24:09,12-02-2025 17:24:12,3.270s,PASSED
+waitForPageLoad(20),Chrome 132.0.0.0,,,12-02-2025 17:24:12,12-02-2025 17:24:12,0.201s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), 20)",Chrome 132.0.0.0,,,12-02-2025 17:24:12,12-02-2025 17:24:22,9.908s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 132.0.0.0,,,12-02-2025 17:24:22,12-02-2025 17:24:23,0.805s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Add dates""))",Chrome 132.0.0.0,,,12-02-2025 17:24:23,12-02-2025 17:24:25,1.872s,PASSED
+delay(3),Chrome 132.0.0.0,,,12-02-2025 17:24:25,12-02-2025 17:24:28,3.131s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/label_3 days3 days""))",Chrome 132.0.0.0,,,12-02-2025 17:24:28,12-02-2025 17:24:29,0.400s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/span_Add guests_t1dqvypu atm_9s_1ulexfb atm_023ad9""))",Chrome 132.0.0.0,,,12-02-2025 17:24:29,12-02-2025 17:24:30,1.026s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_atlanta""), expectedResult)",Chrome 132.0.0.0,,,12-02-2025 17:24:30,12-02-2025 17:24:34,4.286s,PASSED
+closeBrowser(),Chrome 132.0.0.0,,,12-02-2025 17:24:34,12-02-2025 17:24:36,1.680s,PASSED
+,,,,,,,
+Test Cases/Katalon Academy/Data-Driven Testing/Fine a place,Chrome 132.0.0.0,,,12-02-2025 17:24:36,12-02-2025 17:25:07,31.701s,PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,12-02-2025 17:24:36,12-02-2025 17:24:39,3.504s,PASSED
+"setViewPortSize(1920, 1080)",Chrome 132.0.0.0,,,12-02-2025 17:24:39,12-02-2025 17:24:41,1.876s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 132.0.0.0,,,12-02-2025 17:24:41,12-02-2025 17:24:48,7.024s,PASSED
+waitForPageLoad(20),Chrome 132.0.0.0,,,12-02-2025 17:24:48,12-02-2025 17:24:48,0.059s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), 20)",Chrome 132.0.0.0,,,12-02-2025 17:24:48,12-02-2025 17:24:56,8.426s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 132.0.0.0,,,12-02-2025 17:24:56,12-02-2025 17:24:57,0.763s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Add dates""))",Chrome 132.0.0.0,,,12-02-2025 17:24:57,12-02-2025 17:24:59,1.988s,PASSED
+delay(3),Chrome 132.0.0.0,,,12-02-2025 17:24:59,12-02-2025 17:25:02,3.005s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/label_3 days3 days""))",Chrome 132.0.0.0,,,12-02-2025 17:25:02,12-02-2025 17:25:03,0.370s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/span_Add guests_t1dqvypu atm_9s_1ulexfb atm_023ad9""))",Chrome 132.0.0.0,,,12-02-2025 17:25:03,12-02-2025 17:25:03,0.605s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_atlanta""), expectedResult)",Chrome 132.0.0.0,,,12-02-2025 17:25:03,12-02-2025 17:25:06,3.170s,PASSED
+closeBrowser(),Chrome 132.0.0.0,,,12-02-2025 17:25:06,12-02-2025 17:25:07,0.877s,PASSED
+,,,,,,,
+Test Cases/Katalon Academy/Data-Driven Testing/Fine a place,Chrome 132.0.0.0,,,12-02-2025 17:25:07,12-02-2025 17:25:36,28.532s,PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,12-02-2025 17:25:07,12-02-2025 17:25:10,2.843s,PASSED
+"setViewPortSize(1920, 1080)",Chrome 132.0.0.0,,,12-02-2025 17:25:10,12-02-2025 17:25:12,1.760s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 132.0.0.0,,,12-02-2025 17:25:12,12-02-2025 17:25:15,3.024s,PASSED
+waitForPageLoad(20),Chrome 132.0.0.0,,,12-02-2025 17:25:15,12-02-2025 17:25:15,0.478s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), 20)",Chrome 132.0.0.0,,,12-02-2025 17:25:15,12-02-2025 17:25:18,2.581s,PASSED
+"setText(findTestObject(""Object Repository/Airbnb Pages/Page_Search/input_Where_query""), city)",Chrome 132.0.0.0,,,12-02-2025 17:25:18,12-02-2025 17:25:21,3.152s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/div_Add dates""))",Chrome 132.0.0.0,,,12-02-2025 17:25:21,12-02-2025 17:25:26,4.938s,PASSED
+delay(3),Chrome 132.0.0.0,,,12-02-2025 17:25:26,12-02-2025 17:25:29,3.010s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/label_3 days3 days""))",Chrome 132.0.0.0,,,12-02-2025 17:25:29,12-02-2025 17:25:30,0.397s,PASSED
+"click(findTestObject(""Object Repository/Airbnb Pages/Page_Search/span_Add guests_t1dqvypu atm_9s_1ulexfb atm_023ad9""))",Chrome 132.0.0.0,,,12-02-2025 17:25:30,12-02-2025 17:25:30,0.709s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Airbnb Pages/Page_SearchResult/div_atlanta""), expectedResult)",Chrome 132.0.0.0,,,12-02-2025 17:25:30,12-02-2025 17:25:35,4.300s,PASSED
+closeBrowser(),Chrome 132.0.0.0,,,12-02-2025 17:25:35,12-02-2025 17:25:36,1.319s,PASSED
