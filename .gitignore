@@ -9,3 +9,21 @@ Reports/
 .project
 .cache
 /settings/
+Include/
+
+# system and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+
+# Ignore Katalon logs and temporary files
+bin/
+Libs/
+.settings/
+build/
+bin/lib/
+tmp/
+logs/
+.classpath
+.project
