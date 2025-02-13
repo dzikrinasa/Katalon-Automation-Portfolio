@@ -4,4 +4,8 @@
 /.settings/
 /.classpath
 .svn/
-.cache/
+Reports/
+/Screenshots/
+.project
+.cache
+/settings/

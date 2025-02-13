@@ -32,7 +32,7 @@ This repository contains **end-to-end UI and API test automation** using Katalon
 - **RestAssured/Katalon API** (API testing)  
 - **TestNG/JUnit** (for assertions)
 
-## ⚔️ Generate XPath 
+## ⚔️ XPath Guide   
 - **Absolut Path** (Selects from the root element)  
   `/html/body/div`  
 - **Relative Path** (Starts from the current node)  
