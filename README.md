@@ -51,7 +51,7 @@ This repository contains **end-to-end UI and API test automation** using Katalon
     3. `..` Selects the parent node of the current node. `//label[text()='Username']/..`  
     4. `following-sibling::` Selects siblings that appear after the current node.  `//label[text()='Email']/following-sibling::input` `//div[b[text()='Created']]/following-sibling::div]`  
     5. `preceding-sibling::` Selects siblings that appear before the current node.  `//input[@type='password']/preceding-sibling::label` `//label[text()='Password']/preceding-sibling::/p`  
-    6. `descendant:: Selects all descendants of the current node.  `//div[@id='container']/descendant::button`  
+    6. `descendant::` Selects all descendants of the current node.  `///descendant::button`  
   - **with Function**  
     `//div[contains(@class, 'btn')]` `//input[starts-with(@name, 'user')]` `count(//div)`  
     
