@@ -17,29 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Katalon Academy/Reuse Test Case/RTC001_Login into Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setViewPortSize(1920, 1080)
+WebUI.callTestCase(findTestCase('Katalon Academy/Reuse Test Case/RTC003_book an appointment'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.airbnb.com/')
-
-WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoint'), false)
-
-WebUI.waitForPageLoad(20)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Airbnb Pages/Page_Search/input_Where_query'), 20)
-
-WebUI.setText(findTestObject('Object Repository/Airbnb Pages/Page_Search/input_Where_query'), city)
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/div_Add dates'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/label_3 days3 days'))
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/span_Add guests_t1dqvypu atm_9s_1ulexfb atm_023ad9'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Airbnb Pages/Page_SearchResult/div_atlanta'), expectedResult)
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Katalon Academy/Reuse Test Case/RTC002_logout from the application'), [:], FailureHandling.STOP_ON_FAILURE)
 

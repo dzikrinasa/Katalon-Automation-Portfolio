@@ -7,11 +7,14 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>dff2442b-3e22-4db4-baa7-e9035766f592</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>jdbc:mysql://sql7.freesqldatabase.com:3306/sql7766833</dataSourceUrl>
    <driver>DBData</driver>
+   <driverClassName>MySQL</driverClassName>
    <isInternalPath>false</isInternalPath>
+   <password>NlRCZ2RmOGhBaw==</password>
    <query></query>
-   <secureUserAccount>false</secureUserAccount>
+   <secureUserAccount>true</secureUserAccount>
    <sheetName></sheetName>
+   <user>sql7766833</user>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -17,29 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_Go to Homepage'))
 
-WebUI.setViewPortSize(1920, 1080)
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
-WebUI.navigateToUrl('https://www.airbnb.com/')
-
-WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoint'), false)
-
-WebUI.waitForPageLoad(20)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Airbnb Pages/Page_Search/input_Where_query'), 20)
-
-WebUI.setText(findTestObject('Object Repository/Airbnb Pages/Page_Search/input_Where_query'), city)
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/div_Add dates'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/label_3 days3 days'))
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/span_Add guests_t1dqvypu atm_9s_1ulexfb atm_023ad9'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Airbnb Pages/Page_SearchResult/div_atlanta'), expectedResult)
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_Logout'))
 
 WebUI.closeBrowser()
 

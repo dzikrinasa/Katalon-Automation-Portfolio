@@ -19,27 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1920, 1080)
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.airbnb.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoint'), false)
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
-WebUI.waitForPageLoad(20)
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Airbnb Pages/Page_Search/input_Where_query'), 20)
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Demo account_form-control'))
 
-WebUI.setText(findTestObject('Object Repository/Airbnb Pages/Page_Search/input_Where_query'), city)
+WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Username_username'), findTestData(
+        'InternalData').getValue('username', 1))
 
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/div_Add dates'))
+WebUI.setEncryptedText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Password_password'), 
+    GlobalVariable.PASSWORD)
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/label_3 days3 days'))
-
-WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/span_Add guests_t1dqvypu atm_9s_1ulexfb atm_023ad9'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Airbnb Pages/Page_SearchResult/div_atlanta'), expectedResult)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/button_Login'))
 
