@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Allow user to book with docker</description>
+   <name>MTC001_make appointment</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>428a2742-857d-41d2-84e1-c4664d86c80a</testCaseGuid>
+</TestCaseEntity>

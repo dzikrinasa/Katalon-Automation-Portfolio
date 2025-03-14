@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC031_Verify social media object</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca372fae-8c1d-41f9-a6b7-c9e667835946</testCaseGuid>
+</TestCaseEntity>

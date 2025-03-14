@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC005 Access sidebar menu before login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40fb8cb4-06d7-4d3c-b15c-0da3b0210fc1</testCaseGuid>
+</TestCaseEntity>

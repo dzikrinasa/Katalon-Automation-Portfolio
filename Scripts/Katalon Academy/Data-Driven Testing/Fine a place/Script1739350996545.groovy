@@ -23,6 +23,8 @@ WebUI.setViewPortSize(1920, 1080)
 
 WebUI.navigateToUrl('https://www.airbnb.com/')
 
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoint'), false)
+
 WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Airbnb Pages/Page_Search/input_Where_query'), 20)

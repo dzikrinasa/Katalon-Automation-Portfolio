@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Allow user to book an appointment</description>
+   <name>RTC003_book an appointment with verify</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ba88934-e80d-4446-b829-a642ca533ff5</testCaseGuid>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>69173ac8-60b5-4d8c-8f83-829d6b59c136</id>
+      <masked>false</masked>
+      <name>healtcareCenter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>7d92b035-65a3-4f06-85f1-066ab36cf1aa</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'Appointment Confirmation'</defaultValue>
+      <description></description>
+      <id>34c2238c-cbb2-4732-bcac-70c771941862</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medicare'</defaultValue>
+      <description></description>
+      <id>61ebe118-313e-4c1c-bff3-823d6e60e120</id>
+      <masked>false</masked>
+      <name>label</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please be informed that your appointment has been booked as following:'</defaultValue>
+      <description></description>
+      <id>b0af30eb-81d8-4247-b300-d7fad273262b</id>
+      <masked>false</masked>
+      <name>information</name>
+   </variable>
+</TestCaseEntity>

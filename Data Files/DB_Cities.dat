@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DB_Cities</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>dff2442b-3e22-4db4-baa7-e9035766f592</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://sql7.freesqldatabase.com:3306/sql7766833</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName>MySQL</driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>NlRCZ2RmOGhBaw==</password>
+   <query></query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>sql7766833</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

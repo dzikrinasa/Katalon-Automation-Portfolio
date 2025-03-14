@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC009_login then logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d8c8456-7f96-49b7-a1bc-3d8c4dd4c7a5</testCaseGuid>
+</TestCaseEntity>

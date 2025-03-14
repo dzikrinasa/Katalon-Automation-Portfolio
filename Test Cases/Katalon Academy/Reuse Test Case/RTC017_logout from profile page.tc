@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC017_logout from profile page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d017e121-0d2c-4c1f-9331-4525b6ad0a59</testCaseGuid>
+</TestCaseEntity>

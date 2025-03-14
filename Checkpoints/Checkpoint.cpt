@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>Data Files/SampleCity.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>true</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2025-03-13T09:10:22.998+07:00</taken-date>
+   <column-names>
+      <column-name>city</column-name>
+      <column-name>expectedResult</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Jakarta",
+      "checked": true
+    },
+    {
+      "value": "Jakarta",
+      "checked": true
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Tokyo",
+      "checked": true
+    },
+    {
+      "value": "Tokyo",
+      "checked": true
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Atlanta",
+      "checked": true
+    },
+    {
+      "value": "Atlanta",
+      "checked": true
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC020_logout from history page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f6358b4-7b4c-40ed-b4eb-f0c97a70f667</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC010_Appointment with empty visit date</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>655d4349-0c12-4c76-b262-b3d7654dd73e</testCaseGuid>
+</TestCaseEntity>

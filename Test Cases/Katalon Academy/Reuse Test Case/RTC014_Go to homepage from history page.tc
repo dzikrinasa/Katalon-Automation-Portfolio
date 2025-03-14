@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC014_Go to homepage from history page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dfc3d172-ecb3-4d8a-803f-18de8f27f96e</testCaseGuid>
+</TestCaseEntity>

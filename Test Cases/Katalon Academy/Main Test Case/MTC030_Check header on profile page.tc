@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC030_Check header on profile page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d967a73-4f43-4d33-ac52-b0f2d9cf5877</testCaseGuid>
+</TestCaseEntity>

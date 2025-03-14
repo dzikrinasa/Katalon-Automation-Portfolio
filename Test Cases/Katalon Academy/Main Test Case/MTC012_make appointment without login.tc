@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC012_make appointment without login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fac2c0b-0f24-4705-98c9-fe14e4f57a5e</testCaseGuid>
+</TestCaseEntity>

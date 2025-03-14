@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC013_Access history page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fff6d1b6-90a3-4f83-a523-de64ba0b46a3</testCaseGuid>
+</TestCaseEntity>
