@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC013_Verify history page object</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>466f401f-7146-4d09-bfdc-72a25fc18ec4</testCaseGuid>
+</TestCaseEntity>

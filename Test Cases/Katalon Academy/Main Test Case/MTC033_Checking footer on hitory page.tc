@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC033_Checking footer on hitory page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>38814373-c1db-4bb3-a695-df36ed44937f</testCaseGuid>
+</TestCaseEntity>

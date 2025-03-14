@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC018_go to homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a528c3f2-0ea6-48cb-b6fb-b49c9d73d98c</testCaseGuid>
+</TestCaseEntity>

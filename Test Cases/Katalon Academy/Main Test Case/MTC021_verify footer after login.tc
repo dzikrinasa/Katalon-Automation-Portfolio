@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC021_verify footer after login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4eabd61e-5f16-4b2e-89a3-3fc1d6fefd8c</testCaseGuid>
+</TestCaseEntity>

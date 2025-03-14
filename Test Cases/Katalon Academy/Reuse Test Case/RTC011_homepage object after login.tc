@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC011_homepage object after login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c698cd1-455e-475d-a6f9-0a71b7f84b43</testCaseGuid>
+</TestCaseEntity>

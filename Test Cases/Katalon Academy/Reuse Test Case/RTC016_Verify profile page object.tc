@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC016_Verify profile page object</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9170a236-90a5-4c78-a55d-65e1ea93d253</testCaseGuid>
+</TestCaseEntity>

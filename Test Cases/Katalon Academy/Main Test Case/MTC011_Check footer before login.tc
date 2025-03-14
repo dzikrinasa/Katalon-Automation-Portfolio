@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC011_Check footer before login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f87c3c7c-049f-44e1-9d8d-d4bacf612725</testCaseGuid>
+</TestCaseEntity>

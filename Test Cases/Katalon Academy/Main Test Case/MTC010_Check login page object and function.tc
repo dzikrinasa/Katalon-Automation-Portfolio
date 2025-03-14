@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC010_Check login page object and function</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d28b5411-a7cf-451d-b7e8-42a9d65ef3a5</testCaseGuid>
+</TestCaseEntity>

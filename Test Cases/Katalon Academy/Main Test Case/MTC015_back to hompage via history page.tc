@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC015_back to hompage via history page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c87c33f6-44ec-4d66-8d0f-0653125ff509</testCaseGuid>
+</TestCaseEntity>

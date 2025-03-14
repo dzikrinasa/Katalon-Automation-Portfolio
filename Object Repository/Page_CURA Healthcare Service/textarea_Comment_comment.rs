@@ -6,12 +6,12 @@
    <elementGuidId>09c6cc57-9ded-41f0-8dfd-a3bcfb1bfc17</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#txt_comment</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//textarea[@id='txt_comment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txt_comment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>fa389e75-6a93-44a7-98f2-71e0d4af094c</webElementGuid>
+      <webElementGuid>8c395d44-8b91-4177-93f1-b4491b211047</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>021a5153-b18d-4f6f-8e5a-ca23b6a0e798</webElementGuid>
+      <webElementGuid>48fc73a3-67bc-4e26-a848-fbc03aa3249c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txt_comment</value>
-      <webElementGuid>1cd46885-70aa-4c9b-8930-03db5c3c0026</webElementGuid>
+      <webElementGuid>1a10bfc4-554d-4afd-b5d7-6c37d1011b4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>comment</value>
-      <webElementGuid>8c90e13d-1041-4474-af52-3b89618b152e</webElementGuid>
+      <webElementGuid>a918abe6-fdcc-471d-a032-7ce5d45f35ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Comment</value>
-      <webElementGuid>6c3ed7b5-d059-41ba-a93c-b5b35defaf44</webElementGuid>
+      <webElementGuid>022964cf-7472-4a69-82a6-968625663284</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>74ad62f6-df28-4442-bc90-829722d21991</webElementGuid>
+      <webElementGuid>f0103406-beaf-48b7-b317-43e2b4fe1554</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txt_comment&quot;)</value>
-      <webElementGuid>c4fa46ed-26e5-4ea4-927d-b3a4be73f45f</webElementGuid>
+      <webElementGuid>b275b8c1-ba67-4aa0-bb55-5181fbf4a260</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='txt_comment']</value>
-      <webElementGuid>8ed17a16-e742-49a4-926f-78e1024d4a2c</webElementGuid>
+      <webElementGuid>d3d5f1ee-13da-4da8-a8f1-ae53d6eb197e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
-      <webElementGuid>3566cab0-291a-4d6f-a549-4a5bf090e458</webElementGuid>
+      <webElementGuid>a5b5bde4-33e8-4061-a154-f7d35541efaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>e6a4d9a1-6145-444b-b391-3be120d1a967</webElementGuid>
+      <webElementGuid>7b248625-bd70-4b97-b01b-9e3773b744ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
-      <webElementGuid>6cc7d40c-4084-4b7f-b180-a09e2f4675e5</webElementGuid>
+      <webElementGuid>1af4272d-d832-4ed3-b077-06461b4577bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

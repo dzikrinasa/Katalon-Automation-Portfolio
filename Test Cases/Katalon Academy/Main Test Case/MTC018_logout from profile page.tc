@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC018_logout from profile page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36f03c2d-f6e5-4241-8d9c-e9b76dc1ccf1</testCaseGuid>
+</TestCaseEntity>
