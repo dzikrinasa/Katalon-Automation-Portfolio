@@ -6,6 +6,18 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>d6489157-9c42-4465-bf2b-201a48c2c835</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38c3d755-92d5-4623-909e-aab3eb32ca72</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9012fb85-6a4c-4270-8f69-7288c40dce35</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
       <description></description>

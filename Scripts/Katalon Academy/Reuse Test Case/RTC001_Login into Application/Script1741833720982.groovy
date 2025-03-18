@@ -23,17 +23,17 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_menu toggle'))
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_menu Login'))
 
 WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Demo account_form-control'))
 
-WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Username_username'), findTestData(
+WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Username'), findTestData(
         'InternalData').getValue('username', 1))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Password'), 
     GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_Login'))
 

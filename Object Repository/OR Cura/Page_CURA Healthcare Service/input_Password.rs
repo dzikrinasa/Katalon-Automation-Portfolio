@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Visit Date (Required)_visit_date</name>
+   <name>input_Password</name>
    <tag></tag>
-   <elementGuidId>b2553630-0be8-4a2b-9371-4d2a1eaf8e0d</elementGuidId>
+   <elementGuidId>5192a602-2e5d-4481-9d7b-a3b3fa77658b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#txt_visit_date</value>
+         <key>XPATH</key>
+         <value>//input[@id='txt-password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txt_visit_date']</value>
+         <key>CSS</key>
+         <value>#txt-password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;dd/mm/yyyy&quot;i]</value>
+         <value>internal:label=&quot;Password&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d04b4bc5-2ecb-4e45-90d0-12d3967933cb</webElementGuid>
+      <webElementGuid>cae29444-ccf7-4740-8481-0e006fc9a4a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>5b97f915-96ba-439d-99a3-54e8bcd13e1a</webElementGuid>
+      <value>password</value>
+      <webElementGuid>9c45b1d9-ae08-4135-a703-89a761910978</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,31 +45,31 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>d2c2c34a-33da-4085-b464-156b2698579c</webElementGuid>
+      <webElementGuid>d3478c2f-c712-4e68-a82e-12ec7d4df28e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt_visit_date</value>
-      <webElementGuid>15e9a813-db2f-4a35-8e0b-a53847ce7daf</webElementGuid>
+      <value>txt-password</value>
+      <webElementGuid>098b7a7c-b2d3-41e4-a805-5caac1d6fdda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>visit_date</value>
-      <webElementGuid>ba0caba2-dc2c-45e4-87f8-5e0993f88dcf</webElementGuid>
+      <value>password</value>
+      <webElementGuid>b4bd4474-cccf-4e58-9734-d9bacac09839</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>dd/mm/yyyy</value>
-      <webElementGuid>12bb760b-bb0c-4149-8586-475509356f4d</webElementGuid>
+      <value>Password</value>
+      <webElementGuid>80fbff2c-7bb5-4963-bf6e-c1c0fefa39e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,46 +77,46 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>db5193f1-726c-40a3-9752-e439e5960113</webElementGuid>
+      <webElementGuid>d9069cb6-b9f7-4243-aa06-1f7e1e665804</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_visit_date&quot;)</value>
-      <webElementGuid>5619b7a4-223f-406f-a269-f60a35bef832</webElementGuid>
+      <value>id(&quot;txt-password&quot;)</value>
+      <webElementGuid>bd91b447-6838-4acf-b4e7-0a0143558d73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt_visit_date']</value>
-      <webElementGuid>ad90efae-75cf-4d65-88ad-14e1038dd531</webElementGuid>
+      <value>//input[@id='txt-password']</value>
+      <webElementGuid>8fc9d6e6-676e-40d4-ac5b-c0a0c934bd7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[4]/div/div/input</value>
-      <webElementGuid>827ecd23-04a6-429a-8d83-93f584489289</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div[3]/div/input</value>
+      <webElementGuid>7aeac657-7543-4a77-8efa-de0a728e47a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>e877ac0b-ee33-4d35-bc3d-eee81261c9f4</webElementGuid>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>58dc58fa-90e3-4d05-895b-b5cffdab61db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']</value>
-      <webElementGuid>63043ca4-1473-4c9a-a26d-7a7cd4634acf</webElementGuid>
+      <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
+      <webElementGuid>dabf20e2-2387-4117-8ce8-5e16182265a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

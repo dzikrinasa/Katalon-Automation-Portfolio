@@ -23,30 +23,30 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_menu toggle'))
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_menu Login'))
 
 WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Demo account_form-control'))
 
-WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Username_username'), findTestData(
+WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Username'), findTestData(
         'InternalData').getValue('username', 1))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Password'), 
     GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_Login'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/select_Facility'), 
     healtcareCenter, true)
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/checkbox_Apply for hospital readmission'))
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Visit Date'))
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/td_25'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/select_Visit Date'))
 
-WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/textarea_Comment_comment'), comment)
+WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/textarea_Comment'), comment)
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_Book Appointment'))
 

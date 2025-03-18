@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_Go to Homepage'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_Go to Homepage'))
 
-WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_menu toggle'))
 
 WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/a_Logout'))
 
