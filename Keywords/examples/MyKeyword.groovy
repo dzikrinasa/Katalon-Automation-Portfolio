@@ -24,17 +24,17 @@ public class MyKeyword {
 	@Keyword
 	def Login(String username, String password) {
 
-		WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_menu toggle'))
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/btn_menu toggle'))
 
-		WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_menu Login'))
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/btn_menu Login'))
 
-		WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Demo account_form-control'))
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control (1)'))
 
-		WebUI.setText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Username'), username)
+		WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username'), username)
 
-		WebUI.setEncryptedText(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/input_Password'), password)
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password'), password)
 
-		WebUI.click(findTestObject('Object Repository/OR Cura/Page_CURA Healthcare Service/btn_Login'))
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/btn_Login'))
 	}
 	
 	@Keyword

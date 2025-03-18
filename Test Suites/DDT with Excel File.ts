@@ -15,7 +15,7 @@
       <guid>b8dcfab2-7265-468f-af4c-9e7fd406a6ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Katalon Academy/Data-Driven Testing/Fine a place</testCaseId>
+      <testCaseId>Test Cases/Katalon Academy/Practitioner/Data-Driven Testing/Fine a place</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a6ec89b7-a031-49d1-8851-a78182c4e7c5</id>

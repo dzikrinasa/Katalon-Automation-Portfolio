@@ -15,7 +15,7 @@
       <guid>a42bf74b-bd38-4efe-a56e-a85cb61d6606</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Katalon Academy/Main Test Case/MTC001_make appointment</testCaseId>
+      <testCaseId>Test Cases/Katalon Academy/Practitioner/Main Test Case/MTC001_make appointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
