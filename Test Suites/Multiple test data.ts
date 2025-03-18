@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>city</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Katalon Academy/Data-Driven Testing/Fine a place</testCaseId>
+      <testCaseId>Test Cases/Katalon Academy/Practitioner/Data-Driven Testing/Fine a place</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7f08c497-32e0-42ee-8565-8e503d46a05b</id>

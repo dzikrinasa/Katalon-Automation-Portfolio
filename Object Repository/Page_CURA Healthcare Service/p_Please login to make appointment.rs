@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='login']/div/div/div/p</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::p[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

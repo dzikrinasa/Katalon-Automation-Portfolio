@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -15,7 +15,7 @@
       <guid>b8dcfab2-7265-468f-af4c-9e7fd406a6ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Katalon Academy/Data-Driven Testing/Fine a place</testCaseId>
+      <testCaseId>Test Cases/Katalon Academy/Practitioner/Data-Driven Testing/Fine a place</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1274a2c1-f930-4ec3-9448-0a504269de5e</id>
