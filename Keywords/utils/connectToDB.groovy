@@ -26,56 +26,56 @@ import java.sql.Statement
 
 public class connectToDB {
 	@Keyword
-	def selectQuery() {
-		String url = "jdbc:mysql://your-database-host:3306/your_database"
-		String user = "your_username"
-		String password = "your_password"
+	def executeQuery(String query) {
+		// Database Credential
+		String url = GlobalVariable.DB_URL+GlobalVariable.DB_NAME //"jdbc:sqlserver://your-database-host:port;your_database"
+		String user = GlobalVariable.DB_USER
+		String password = GlobalVariable.DB_PASSWORD
 
+		// Establish Connection
 		Connection conn = DriverManager.getConnection(url, user, password)
 		Statement stmt = conn.createStatement()
 
-		// ✅ Execute SQL Query
-		String query = "SELECT username, password FROM users WHERE status = 'active'"
-		ResultSet resultSet = stmt.executeQuery(query)
+		// Execute Query
+		int rowsAffected = stmt.executeUpdate(query)
 
-		// ✅ Iterate Through Results
-		while (resultSet.next()) {
-			String username = resultSet.getString("username")
-			String passworduser = resultSet.getString("password")
+		WebUI.comment(rowsAffected + " Rows Affected" )
 
-			println("Username: " + username + " | Password: " + passworduser)
-
-			// ✅ Use Data in Your Test Case
-			WebUI.setText(findTestObject('Object Repository/LoginPage/txt_username'), username)
-			WebUI.setText(findTestObject('Object Repository/LoginPage/txt_password'), password)
-			WebUI.click(findTestObject('Object Repository/LoginPage/btn_login'))
-		}
-
-		// ✅ Close Connections
-		resultSet.close()
+		// Close Connection
 		stmt.close()
 		conn.close()
 	}
 
 	@Keyword
-	def executeQuery() {
-		// ✅ Database Connection Details
-		String url = "jdbc:mysql://your-database-host:3306/your_database"
-		String user = "your_username"
-		String password = "your_password"
+	def selectQuery(String query) {
 
-		// ✅ Establish Connection
+		// Database Credential
+		String url = GlobalVariable.DB_URL+GlobalVariable.DB_NAME //"jdbc:sqlserver://your-database-host:port;your_database"
+		String user = GlobalVariable.DB_USER
+		String password = GlobalVariable.DB_PASSWORD
+
+		// Connect to Database
 		Connection conn = DriverManager.getConnection(url, user, password)
 		Statement stmt = conn.createStatement()
 
-		// ✅ Execute UPDATE Query
-		String updateQuery = "UPDATE users SET status = 'inactive' WHERE id = 1"
-		int rowsAffected = stmt.executeUpdate(updateQuery)
+		// Execute Select Query
+		ResultSet resultSet = stmt.executeQuery(query)
 
-		println("✅ Rows Updated: " + rowsAffected)
+		// Store data as a Map
+		def rowData = [:]
+		if (resultSet.next()) {
+			int totalColumns = resultSet.getMetaData().getColumnCount()
+			for (int i = 1; i <= totalColumns; i++) {
+				String column = resultSet.getMetaData().getColumnName(i)
+				rowData[column] = resultSet.getObject(i)
+			}
+		}
 
-		// ✅ Close Connection
+		// Close Connections
+		resultSet.close()
 		stmt.close()
 		conn.close()
+
+		return rowData
 	}
 }
