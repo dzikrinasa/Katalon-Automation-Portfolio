@@ -53,7 +53,9 @@ This repository contains **end-to-end UI and API test automation** using Katalon
     5. `preceding-sibling::` Selects siblings that appear before the current node.  `//input[@type='password']/preceding-sibling::label` `//label[text()='Password']/preceding-sibling::/p`  
     6. `descendant::` Selects all descendants of the current node.  `///descendant::button`  
   - **with Function**  
-    `//div[contains(@class, 'btn')]` `//input[starts-with(@name, 'user')]` `count(//div)`  
+    `//div[contains(@class, 'btn')]` `//input[starts-with(@name, 'user')]` `count(//div)`
+  - **Dynamic Value**  
+    `//span[text()='${value}']` `//div[contains(@id, '${value}')]` on Test Case Set : `WebUI.click(findTestObject, [('value') : value]))`
     
 ## 🏷️ Tags & Keyword
 `Katalon Studio` `Test Automation` `Selenium` `API Testing` `UI Testing` `Mobile Testing` `Data-Driven Testing`  
