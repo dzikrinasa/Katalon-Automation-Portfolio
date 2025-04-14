@@ -55,7 +55,8 @@ This repository contains **end-to-end UI and API test automation** using Katalon
   - **with Function**  
     `//div[contains(@class, 'btn')]` `//input[starts-with(@name, 'user')]` `count(//div)`
   - **Dynamic Value**  
-    `//span[text()='${value}']` `//div[contains(@id, '${value}')]` on Test Case Set : `WebUI.click(findTestObject, [('value') : value]))`
+    `//span[text()='${value}']` `//div[contains(@id, '${value}')]`  
+    on Test Case Set : `WebUI.click(findTestObject, [('value') : 'text value']))`
     
 ## 🏷️ Tags & Keyword
 `Katalon Studio` `Test Automation` `Selenium` `API Testing` `UI Testing` `Mobile Testing` `Data-Driven Testing`  
